@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Companies</h2>
+            <div class="search-container">
+                <input type="text" id="searchBox" placeholder="Search company..." onkeyup="filterCompanies()">
+            </div>
+            <ul id="company-list"></ul>
+        </div>
+        <div class="main">
+            <h2>Stock Price Chart</h2>
+            <canvas id="stockChart"></canvas>
+        </div>
+    </div>
+</body>
+</html>
+
