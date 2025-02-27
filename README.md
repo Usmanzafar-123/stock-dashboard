@@ -21,3 +21,43 @@ The backend processes stock data from a CSV file and serves it through APIs, whi
 - **Data Processing**: `csv-parser` (for reading CSV files)
 - **REST API**: Express.js for serving data
 - **Styling**: Custom CSS & Bootstrap
+
+---
+
+  ## 🚀 Setup Instructions  
+
+1️⃣ Clone the Repository  
+
+-git clone https://github.com/Usmanzafar-123/stock-dashboard.git
+-cd stock-dashboard
+
+2️⃣ Install Dependencies
+
+-npm install
+
+4️⃣ Start the Server
+
+-node server/server.js
+
+4️⃣ Access the application
+
+-http://localhost:5000
+
+ ## Project Structure
+
+ stock_dashboard/
+│── data/
+│   └── dump.csv       # CSV file containing stock data 
+│
+│── public/
+│   ├── index.html     # Frontend UI
+│   ├── style.css      # Custom CSS for styling
+│   ├── script.js      # JavaScript for fetching data and rendering charts
+│
+│── server/
+│   ├── server.js      # Node.js backend to serve API endpoints
+│
+│── package.json       # Node.js dependencies and scripts
+│── README.md          # Project documentation
+│── .gitignore         # Ignore node_modules and unnecessary files
+
